@@ -1,7 +1,5 @@
 # ArduBOT PRo
 
-![Descripción de la Imagen](./images/mi-imagen.jpg)
-
 A board designed with an Arduino Nano and a TB6612FNG that allows us to control robots.
 It has 8 analog inputs/outputs that allow us to connect sensors or modules. (I have used it to connect servomotors)
 It has a 3.3V output to connect sensors or modules that operate at that voltage (for example, an FPV camera).
