@@ -46,10 +46,6 @@ struct joystick {
 
 joystick joystickData;
 
-//int button0 = 0;
-//int button1 = 0;
-//int button2 = 0;
-int servo1pos = 0; 
 
 void setup() {
   // Inicia Serial
@@ -58,7 +54,7 @@ void setup() {
 
   Servo1.attach(3);
 
-  // Configura e inicializa RF
+  // Configure and initialize RF
   if (!radio.begin()) {
     Serial.println(F("Radio not responding!!"));
     while (1) {} // preso em loop
@@ -71,7 +67,6 @@ void setup() {
 
   radio.startListening();
 
-  //zeraVariaveis();
 }
 
 void loop() {
